@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express22' });
+  res.render('index', { title: 'Softhouse - Download', page: 'Download page' });
 });
 
 module.exports = router;
