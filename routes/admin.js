@@ -6,4 +6,9 @@ router.get('/', function(req, res, next) {
   res.render('admin', { title: 'Softhouse - Upload', page: 'Admin page' });
 });
 
+/* GET home page. */
+router.post('/', function(req, res, next) {
+  res.render('admin', { title: 'Softhouse - Upload', page: 'Admin page' });
+});
+
 module.exports = router;

@@ -1,5 +1,13 @@
 extends layout
 
 block content
-  h1= page
-  p Upload stuff here
+    div
+        img(src= "http://www.softhouse.se/wp-content/uploads/2014/09/softhouse_logotyp.png")
+
+
+    div
+        form(method="post", enctype="multipart/form-data")
+            input(type="file", name="displayImage")
+            button Post
+
+    h1 footer here
